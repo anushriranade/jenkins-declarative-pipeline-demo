@@ -6,7 +6,7 @@ pipeline {
         stage('Pull from Git') {
             steps {
                 echo 'Cloning repository...'
-                git 'https://github.com/YOUR_USERNAME/jenkins-declarative-pipeline-demo.git'
+                git 'https://github.com/anushriranade/jenkins-declarative-pipeline-demo/blob/main/Jenkinsfile'
             }
         }
 
